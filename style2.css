@@ -1,0 +1,321 @@
+@font-face
+{ 
+font-family: 'Oxanium'; src: url('Font/Oxanium-Medium.ttf'); 
+} 
+body 
+{ 
+background-color: whitesmoke; 
+margin:auto; 
+font-family: 'Oxanium', 'dustismo', arial, 'sans-seriff'; 
+font-size: 0.8em; 
+color: white; 
+max-width: 950px; 
+} 
+a
+{ 
+color: rgb(80, 77, 74);
+} 
+a:hover
+{ 
+color:blue; 
+} 
+header img
+{ 
+border-radius: 80%; 
+border: 5px solid #00c8f8; 
+width: 150px; 
+height: 150px; 
+} 
+#photo
+{ 
+background-color:#00c8f8; 
+width: auto; 
+padding: 20px; 
+text-align: center; 
+margin: 10px; 
+} 
+#od
+{ 
+width: auto; 
+padding-top: 5px; 
+padding-bottom: 0px; 
+margin-top: 5px; 
+margin-bottom: 0px; 
+text-align: center; 
+} 
+#od h1
+{ 
+font-size: 2em; 
+color:#00c8f8; 
+margin-top: 10px; 
+margin-bottom: 20px; 
+padding-bottom: 10px; 
+} 
+.nom
+{ 
+color:black; 
+font-weight: lighter; 
+} 
+#od h2
+{ 
+font-size: 1.5em; 
+color:black;
+margin-top: 0px; 
+margin-bottom: 10px; 
+} 
+.underlign
+{ 
+border-bottom: 2px solid #00c8f8; 
+} 
+.conteneur
+{ 
+display: flex; 
+flex-direction: column-reverse;
+margin: 10px; 
+} 
+aside
+{ 
+display:flex; 
+flex-direction: column; 
+width:100%; 
+background-color: #00c8f8; 
+margin-top: 10px; 
+} 
+aside h3 
+{ 
+color: white;  ; 
+background-color: #404040 ; 
+text-align: center; 
+font-size: 1.5em; 
+margin-top:0px;
+padding-right:0px; 
+padding-left:0px; 
+} 
+.contact p
+{ 
+text-align: center; 
+font-size: 1em; 
+} 
+.contact a:hover
+{ 
+color:rgba(12, 83, 238, 0.808); 
+} 
+.apropos p
+{ 
+text-align: justify; 
+font-size: 1em; 
+padding: 10px; 
+} 
+.icones
+{ 
+padding-right:40px; 
+padding-left:40px; 
+padding-bottom:10px; 
+display: flex; 
+flex-direction: row; 
+justify-content: space-between; 
+align-items:center ; 
+} 
+.iconpassions
+{ 
+width: 45px; 
+height: 45px; 
+color: white; 
+font-size: 2em; 
+border: 2px solid white; 
+border-radius: 50%; 
+display: flex; 
+justify-content: space-around; 
+align-items: center; 
+} 
+.right_title
+{ 
+display:flex; 
+flex-direction: row; 
+align-items: baseline; 
+justify-content: start; 
+border-bottom:1px solid #00c8f8; 
+margin-top:50px;
+color: black;  
+ 
+} 
+.right_title h3
+{ 
+margin:5px;
+font-size: 1.5em; 
+} 
+.main_icones
+{ 
+color:#00c8f8; 
+font-size: 1.5em;
+margin-left: 10px; 
+margin-right: 30px; 
+} 
+.right_content
+{ 
+display:flex; 
+flex-direction: column; 
+align-items: baseline; 
+justify-content: normal; 
+margin-left: 10px; 
+margin-top: 10px;
+color: black;  
+} 
+.date_place_icones
+{ 
+display:flex; 
+flex-direction:row; 
+align-items: baseline; 
+justify-content: start; 
+color: black;  
+} 
+.dot_circle
+{ 
+font-size: 1em; 
+color:#00c8f8; 
+padding-right: 10px; 
+} 
+.circle
+{ 
+font-size: 0.6em; 
+color: #00c8f8; 
+padding-right: 10px; 
+} 
+ul 
+{ 
+list-style-type: none;
+color: black;  
+ } 
+ .recommandations
+ { 
+text-align: center;
+color: black;   
+margin-top:20px; 
+margin-bottom:10px;
+} 
+@media only screen and (min-width:600px)
+{ 
+.recommandations
+{ 
+text-align:center;
+color: black;  
+display: flex; 
+flex-direction: row; 
+justify-content: space-around; 
+} 
+.right_content
+{ 
+display: flex; 
+flex-direction: row; 
+} 
+.date_place_icones
+{ 
+min-width: 150px; 
+} } 
+@media only screen and (min-width:960px)
+{ 
+body
+{ 
+background-color: white; 
+} 
+.conteneur_1
+{ 
+background-color: white; 
+margin-top:10px; 
+margin-bottom: 10px; 
+border:1px solid grey; 
+} 
+header
+{ 
+display:flex; 
+flex-direction: row; 
+justify-content: flex-start; 
+} 
+.conteneur_2
+{ 
+display:flex; 
+flex-direction: row; 
+justify-content: flex-start;   
+margin:0px 0px 0px 0px; 
+} 
+#photo
+{ 
+text-align: center; 
+padding:0px; 
+margin:0px; 
+width: 30%; 
+} 
+header img
+{ 
+margin-top: 40px; 
+margin-bottom: 40px; 
+} 
+#od
+{ 
+text-align: center; 
+margin-left: 40px; 
+margin-top:40px; 
+margin-bottom: 40px; 
+} 
+#od h1
+{ 
+font-size: 3em; 
+font-weight: bold;  
+margin-bottom: 10px; 
+} 
+.nom{
+font-weight:lighter; 
+} 
+#od h2
+{ 
+font-size: 2em;
+font-weight: lighter;
+color: black;   
+} 
+main
+{ 
+margin-top:0px; 
+margin-left: 40px; 
+margin-right: 0px; 
+width: 65%; 
+} 
+.right_title
+{ 
+margin-top:45px; 
+} 
+aside
+{ 
+padding-top:5px; 
+margin:0px; 
+width: 30%; 
+} 
+.right_content
+{ 
+display: flex; 
+flex-direction: row; 
+} 
+.date_place_icones
+{ 
+min-width: 200px; 
+} 
+.right_title
+{
+margin-right:60px; 
+} 
+.recommandations
+{ 
+    text-align:center;
+    color: black;  
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+} 
+.apropos p
+{ 
+padding: 20px 20px 330px 20px ; 
+} 
+.icones
+{ 
+padding-top:20px; 
+padding-bottom:20px; 
+} } 
