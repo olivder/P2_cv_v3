@@ -1,4 +1,4 @@
-# ****************  P2_cv_v3   *****************
+# P2_cv_v3 Projet d'éducation  de la  formation  "développeur web"  [OC]
 Troisième version de mon repository
 [refonte total du dépot]
 ***********************************************************************************************************************************************************
